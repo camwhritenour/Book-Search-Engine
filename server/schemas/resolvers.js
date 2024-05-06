@@ -58,7 +58,7 @@ const resolvers = {
                 return res.status(404).json({ message: "Couldn't find user with this id!" });
             }
             return { updatedUser };
-        }
+        },
     },
 };
 
